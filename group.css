@@ -1,0 +1,98 @@
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	font-family: arial;
+
+	box-sizing: border-box;
+
+}
+
+body{
+
+	height: 100vh;
+
+	display: grid;
+
+	place-items: center;
+
+	background: url(file:///C:/Users/Priyal%20Minni/Downloads/Synthwave%20retrowave%20night%20cityscape%20by%20Crafter%20on%20@creativemarket.jpg);
+
+	background-size: 100% 100%;
+
+	background-repeat: no-repeat;
+
+}
+
+table{
+
+	width: 900px;
+
+	box-shadow: -1px 12px 12px -6px rgba(125, 150, 150, 0.5);
+
+}
+
+table, td, th{
+
+	padding: 10px;
+
+	border: 1px solid lightgray;
+
+	border-collapse: collapse;
+
+	text-align: center;
+
+	cursor: pointer;
+
+}
+
+td{
+
+	font-size: 15px;
+
+}
+
+th{
+
+	background-color: rgb(157, 167, 163);
+
+	color: rgb(159, 182, 180);
+
+}
+
+tr:nth-child(odd){
+
+	background-color: rgba(129, 86, 86, 0.658)
+}
+
+tr:nth-child(odd):hover{
+
+	background-color: rgba(129, 86, 86, 0.658);
+
+	color: white;
+
+	transform: scale(1.5);
+
+	transition: transform 30ms ease-in;
+
+}
+
+tr:nth-child(even){
+
+	background-color: #b8b5b5a4;
+
+}
+
+tr:nth-child(even):hover{
+
+	background-color: rgba(185, 176, 163, 0.527);
+
+	transform: scale(1.5);
+    color: white;
+
+	transition: transform 30ms ease-in;
+
+
+}
